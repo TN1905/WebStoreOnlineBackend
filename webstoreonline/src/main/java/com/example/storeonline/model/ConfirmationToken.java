@@ -23,7 +23,7 @@ import lombok.Setter;
 public class ConfirmationToken {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private String confirmation_token_id;
+    private Integer confirmation_token_id;
     private String confirmation_token;
     @Temporal(TemporalType.DATE)
     private Date create_date;

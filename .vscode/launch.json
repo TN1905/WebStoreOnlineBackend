@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-WebstoreonlineApplication<webstoreonline>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.storeonline.webstoreonline.WebstoreonlineApplication",
+            "projectName": "webstoreonline",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-WebstoreonlineApplication<webstoreonline>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.storeonline.WebstoreonlineApplication",
+            "projectName": "webstoreonline",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
